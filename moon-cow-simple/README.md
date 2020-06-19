@@ -5,6 +5,9 @@ Generate project names that are:
 * three words long
 * separated by spaces
 * contain letters of the alphabet only
+* two runs should yield the same result only with a very, very low probability
+  * i.e. don't give the same project name every time
+  * do something random instead
 
 i.e. of the form:
 

@@ -2,14 +2,16 @@
 
 cd "$(dirname "$0")"
 
+
 run_test () {
     echo "--== [Running entry $1] ==--"
     pushd $1 > /dev/null
-    result=`./run.sh`
-    if [[ "${result}" =~ ([A-Za-z]{3,} ){2}[A-Za-z]{3,} ]]; then
-        echo "${result} <<= pass"
+    result1=`./run.sh`
+    result2=`./run.sh`
+    if [[ "${result1}" =~ ([A-Za-z]{3,} ){2}[A-Za-z]{3,} ]] && [[ "${result2}" =~ ([A-Za-z]{3,} ){2}[A-Za-z]{3,} ]] && [[ "${result1}" != "${result2}" ]]; then
+        echo "${result1} <<= pass"
     else
-        echo "${result} <<< FAILED!"
+        echo "${result1} / ${result2} <<< FAILED!"
     fi
     popd > /dev/null
     echo ''
