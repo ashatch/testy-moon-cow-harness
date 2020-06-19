@@ -11,7 +11,7 @@ Generate project names that are:
 
 i.e. of the form:
 
-```
+```bash
 ([A-Za-z]{3,} ){2}[A-Za-z]{3,}
 ```
 
@@ -22,9 +22,24 @@ i.e. of the form:
   * Test harness execution should not require polluting the host with software installs
   * See https://github.com/ashatch/testy-moon-cow-simple-alpha for an example build/run environment.
 
+## Add an entry
+
+* Add git submodules as entrants
+* Submodule directories MUST have `entry-` as a prefix.
+
+```bash
+cd moon-cow-simple
+git submodule add https://github.com/ashatch/testy-moon-cow-simple-alpha entry-ashatch-alpha
+```
+
+## Update your entry
+
+This can be done by doing a fetch/pull in your directory. Please only do that in your
+own submodules!
+
 ## Run all tests
 
-```
+```bash
 ./test.sh
 ```
 
@@ -32,6 +47,6 @@ i.e. of the form:
 
 e.g:
 
-```
+```bash
 ./test.sh entry-ashatch-alpha
 ```
