@@ -18,6 +18,9 @@ i.e. of the form:
 * Your entry MUST contain, at its root, a `run.sh` bash script
 * `run.sh` must perform any steps required to build and then run
 * `run.sh` must only output the program output to stdout, not e.g. the build output
+* Your entry MUST NOT require anything other than Docker to build/run.
+  * Test harness execution should not require polluting the host with software installs
+  * See https://github.com/ashatch/testy-moon-cow-simple-alpha for an example build/run environment.
 
 ## Run all tests
 
