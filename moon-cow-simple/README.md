@@ -22,6 +22,20 @@ i.e. of the form:
   * Test harness execution should not require polluting the host with software installs
   * See https://github.com/ashatch/testy-moon-cow-simple-alpha for an example build/run environment.
 
+## Trophies available
+
+Invent your trophy here:
+
+* Faldo Award (smallest program)
+* Boaty Award (funniest output)
+* Wolf Award (most profanity)
+* f(x) Award (for gratuitous FP)
+* Shell Warrior Award (for only using shell)
+* Synthwave Award (for oldest language)
+* Wet Award (for use of assembly - below C-level)
+* Worst Award (for all PERL implementations)
+* Wollly Award (for most parallel-threaded)
+
 ## Add an entry
 
 * Add git submodules as entrants
