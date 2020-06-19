@@ -1,0 +1,6 @@
+[submodule "moon-cow-simple/entry-ashatch-alpha"]
+	path = moon-cow-simple/entry-ashatch-alpha
+	url = https://github.com/ashatch/testy-moon-cow-simple-alpha
+[submodule "moon-cow-simple/entry-ashatch-beta"]
+	path = moon-cow-simple/entry-ashatch-beta
+	url = https://github.com/ashatch/testy-moon-cow-simple-beta
