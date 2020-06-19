@@ -15,10 +15,12 @@ run_test () {
     echo ''
 }
 
-echo "Running tests"
-
-
-for entry in `find . -type d -name "entry-*"`
-do
-    run_test ${entry}
-done
+if [ -z "$1" ]; then
+    echo "Running all tests..."
+    for entry in `find . -type d -name "entry-*"`
+    do
+        run_test ${entry}
+    done
+else
+    run_test $1
+fi
