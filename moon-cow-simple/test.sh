@@ -8,7 +8,7 @@ run_test () {
     pushd $1 > /dev/null
     result1=`./run.sh`
     result2=`./run.sh`
-    if [[ "${result1}" =~ ([A-Za-z]{3,} ){2}[A-Za-z]{3,} ]] && [[ "${result2}" =~ ([A-Za-z]{3,} ){2}[A-Za-z]{3,} ]] && [[ "${result1}" != "${result2}" ]]; then
+    if [[ "${result1}" =~ ([A-Za-z]{3,}(-| )){2}[A-Za-z]{3,} ]] && [[ "${result2}" =~ ([A-Za-z]{3,}(-| )){2}[A-Za-z]{3,} ]] && [[ "${result1}" != "${result2}" ]]; then
         echo "${result1} <<= pass"
     else
         echo "${result1} / ${result2} <<< FAILED!"
