@@ -4,3 +4,6 @@
 [submodule "moon-cow-simple/entry-ashatch-beta"]
 	path = moon-cow-simple/entry-ashatch-beta
 	url = https://github.com/ashatch/testy-moon-cow-simple-beta
+[submodule "entry-easen-amp-php-urban-dictionary"]
+	path = entry-easen-amp-php-urban-dictionary
+	url = https://github.com/easen-amp/php-urban-dictionary-moon-cow
