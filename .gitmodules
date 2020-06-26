@@ -7,3 +7,6 @@
 [submodule "moon-cow-simple/entry-blue-cow-moon-og"]
 	path = moon-cow-simple/entry-blue-cow-moon-og
 	url = https://github.com/nicholassmith/blue-cow-moon
+[submodule "moon-cow-simple/entry-blue-cow-zero"]
+	path = moon-cow-simple/entry-blue-cow-zero
+	url = https://github.com/nicholassmith/blue-cow-zero
