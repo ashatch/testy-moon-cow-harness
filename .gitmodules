@@ -16,12 +16,12 @@
 [submodule "moon-cow-simple/entry-python-cheesy-bacon"]
 	path = moon-cow-simple/entry-python-cheesy-bacon
 	url = https://github.com/Benj0s/testy-moon-cow-python-cheesy-bacon
-[submodule "moon-com-simple/entry-vova-dubrova"]
-	parth = moon-cow-simple/entry-vova-dubrova
-	url = https://github.com/igoodkit/entry-vova-dubrova
 [submodule "moon-cow-simple/entry-bash-swearword"]
 	path = moon-cow-simple/entry-bash-swearword
 	url = https://github.com/easen-amp/bash-swearword-blue-moon-cow
-[submodule "entry-easen-amp-php-urban-dictionary"]
-	path = entry-easen-amp-php-urban-dictionary
+[submodule "moon-cow-simple/entry-vova-dubrova"]
+	path = moon-cow-simple/entry-vova-dubrova
+	url = https://github.com/igoodkit/entry-vova-dubrova
+[submodule "moon-cow-simple/entry-easen-amp-php-urban-dictionary"]
+	path = moon-cow-simple/entry-easen-amp-php-urban-dictionary
 	url = https://github.com/easen-amp/php-urban-dictionary-moon-cow
