@@ -7,6 +7,21 @@
 [submodule "moon-cow-simple/entry-blue-cow-moon-og"]
 	path = moon-cow-simple/entry-blue-cow-moon-og
 	url = https://github.com/nicholassmith/blue-cow-moon
+[submodule "moon-cow-simple/entry-blue-cow-zero"]
+	path = moon-cow-simple/entry-blue-cow-zero
+	url = https://github.com/nicholassmith/blue-cow-zero
+[submodule "moon-cow-simple/testy-moon-cow-entry-bnealon"]
+	path = moon-cow-simple/testy-moon-cow-entry-bnealon
+	url = https://github.com/bennealon/testy-moon-cow-entry-bnealon
+[submodule "moon-cow-simple/entry-python-cheesy-bacon"]
+	path = moon-cow-simple/entry-python-cheesy-bacon
+	url = https://github.com/Benj0s/testy-moon-cow-python-cheesy-bacon
+[submodule "moon-com-simple/entry-vova-dubrova"]
+	parth = moon-cow-simple/entry-vova-dubrova
+	url = https://github.com/igoodkit/entry-vova-dubrova
+[submodule "moon-cow-simple/entry-bash-swearword"]
+	path = moon-cow-simple/entry-bash-swearword
+	url = https://github.com/easen-amp/bash-swearword-blue-moon-cow
 [submodule "entry-easen-amp-php-urban-dictionary"]
 	path = entry-easen-amp-php-urban-dictionary
 	url = https://github.com/easen-amp/php-urban-dictionary-moon-cow
