@@ -25,3 +25,6 @@
 [submodule "moon-cow-simple/entry-easen-amp-php-urban-dictionary"]
 	path = moon-cow-simple/entry-easen-amp-php-urban-dictionary
 	url = https://github.com/easen-amp/php-urban-dictionary-moon-cow
+[submodule "moon-cow-simple/entry-es-docker-inspired"]
+	path = moon-cow-simple/entry-es-docker-inspired
+	url = https://github.com/ewansteele/3-name-gen
