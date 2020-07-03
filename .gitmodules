@@ -13,3 +13,6 @@
 [submodule "moon-cow-simple/testy-moon-cow-entry-bnealon"]
 	path = moon-cow-simple/testy-moon-cow-entry-bnealon
 	url = https://github.com/bennealon/testy-moon-cow-entry-bnealon
+[submodule "moon-cow-simple/entry-python-cheesy-bacon"]
+	path = moon-cow-simple/entry-python-cheesy-bacon
+	url = https://github.com/Benj0s/testy-moon-cow-python-cheesy-bacon
