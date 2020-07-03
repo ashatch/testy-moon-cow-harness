@@ -22,3 +22,6 @@
 [submodule "moon-cow-simple/entry-bash-swearword"]
 	path = moon-cow-simple/entry-bash-swearword
 	url = https://github.com/easen-amp/bash-swearword-blue-moon-cow
+[submodule "entry-easen-amp-php-urban-dictionary"]
+	path = entry-easen-amp-php-urban-dictionary
+	url = https://github.com/easen-amp/php-urban-dictionary-moon-cow
