@@ -10,3 +10,6 @@
 [submodule "moon-cow-simple/entry-blue-cow-zero"]
 	path = moon-cow-simple/entry-blue-cow-zero
 	url = https://github.com/nicholassmith/blue-cow-zero
+[submodule "moon-cow-simple/testy-moon-cow-entry-bnealon"]
+	path = moon-cow-simple/testy-moon-cow-entry-bnealon
+	url = https://github.com/bennealon/testy-moon-cow-entry-bnealon
